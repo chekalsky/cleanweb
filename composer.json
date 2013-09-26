@@ -1,0 +1,28 @@
+{
+    "name": "chekalskiy/cleanweb",
+    "license": "MIT",
+    "description": "PHP class for Yandex Cleanweb API (spam checking and captcha)",
+    "keywords": ["yandex", "cleanweb", "captcha", "spam"],
+    "homepage": "https://github.com/chekalskiy/cleanweb",
+    "authors": [
+        {
+            "name": "Ilya Chekalskiy",
+            "email": "ilya@chekalskiy.ru",
+            "homepage": "http://chekalskiy.ru"
+        }
+    ],
+    "support": {
+        "email": "ilya@chekalskiy.ru",
+        "issues": "https://github.com/chekalskiy/vk-oauth/issues",
+        "source": "https://github.com/chekalskiy/vk-oauth"
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "che\\": ""
+        }
+    }
+}
