@@ -13,8 +13,8 @@
     ],
     "support": {
         "email": "ilya@chekalskiy.ru",
-        "issues": "https://github.com/chekalskiy/vk-oauth/issues",
-        "source": "https://github.com/chekalskiy/vk-oauth"
+        "issues": "https://github.com/chekalskiy/cleanweb/issues",
+        "source": "https://github.com/chekalskiy/cleanweb"
     },
     "require": {
         "php": ">=5.3.3",
