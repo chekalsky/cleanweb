@@ -139,7 +139,7 @@ class cleanweb {
             $query = http_build_query($parametres);
             $url .= '?' . $query;
 
-            $response = file_get_contents($url);
+            $response = @file_get_contents($url);
         } else {
             $http_options = array(
                 'http' => array(
@@ -150,7 +150,7 @@ class cleanweb {
             );
             $context = stream_context_create($http_options);
 
-            $response = file_get_contents($url, false, $context);
+            $response = @file_get_contents($url, false, $context);
         }
 
         if (!$response)
